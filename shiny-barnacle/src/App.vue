@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to the Shiny Barnacle" />
+  <HelloWorld msg="Welcome to the Shiny Barnacle App!" />
 </template>
 
 <script>
