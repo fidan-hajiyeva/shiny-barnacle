@@ -6,15 +6,21 @@ const props = defineProps<Props>();
 <template>
   <div>
     <h2>
-      Дилер: <span>{{ props.dealerSum }}</span>
+      Dealer: <span>{{ props.dealerSum }}</span>
     </h2>
-    <div id="dealer-cards">
+    <div>
       <img
         v-if="props.hiddenCard"
-        src="@/assets/img/back.png"
+        id="hidden"
+        :src="require(`@/assets/img/back.png`)"
         class="card-img"
       />
-      <img v-for="card in props.dealerCards" :src="card.img" class="card-img" />
+
+      <img
+        v-for="card in props.dealerCards"
+        :src="require(`@/assets/img/${card}.png`)"
+        class="card-img"
+      />
     </div>
   </div>
 </template>
