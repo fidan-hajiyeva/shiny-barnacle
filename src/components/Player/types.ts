@@ -2,7 +2,7 @@ import { Card } from "@/types";
 
 export interface Props {
   playerSum: number;
-  playerCards: Card[];
+  playerCards: string[];
 }
 
 export interface Emits {

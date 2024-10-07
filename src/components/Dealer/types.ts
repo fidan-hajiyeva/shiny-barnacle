@@ -2,8 +2,8 @@ import { Card } from "@/types";
 
 export interface Props {
   dealerSum: number;
-  dealerCards: Card[];
-  hiddenCard: boolean;
+  dealerCards: string[];
+  hiddenCard: string | null;
 }
 
 export interface Emits {
