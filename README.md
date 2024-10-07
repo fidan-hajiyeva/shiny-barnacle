@@ -32,7 +32,7 @@ npm run serve
 
 ```bash
 npm run build
-
+```
 ## Game Rules
 
 ### Deck
@@ -60,4 +60,3 @@ npm run build
 ### Winning
 - The **player wins** if they have more points than the dealer without exceeding 21.
 - The **dealer wins** if they have more points or if the player **busts** (goes over 21).
-```
